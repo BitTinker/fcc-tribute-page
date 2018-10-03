@@ -1,0 +1,32 @@
+#main {
+  background-color: aliceblue
+}
+
+#headline {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  line-height: 0.2;
+  justify-content: center;
+}
+
+img {
+  display: flex;
+  align-self: center;
+  justify-content: center; 
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+#img-div {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#img-caption {
+  display: flex;
+  justify-content: center;
+}
