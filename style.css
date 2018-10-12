@@ -1,5 +1,9 @@
 #main {
-  background-color: aliceblue
+  background-color: aliceblue      
+}
+
+body {
+  font-family: Helvetica;
 }
 
 #headline {
@@ -8,6 +12,13 @@
   flex-direction: row;
   line-height: 0.2;
   justify-content: center;
+  padding: 2em;
+}
+
+#tribute-info {
+  border: 3px solid grey;
+  border-radius: 5px;  
+  line-height: 40px;
 }
 
 img {
@@ -17,6 +28,8 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+  border: 3px solid grey;
+  border-radius: 5px;
 }
 
 #img-div {
@@ -24,9 +37,16 @@ img {
   align-self: center;
   justify-content: center;
   flex-direction: column;
+  padding: 5em;
 }
 
 #img-caption {
   display: flex;
+  justify-content: center;
+}
+
+#tribute-link {
+  display: flex;
+  align-self: center;
   justify-content: center;
 }
